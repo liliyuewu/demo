@@ -43,11 +43,12 @@ class DemoApplicationTests {
     }
 
     /**
-     *测试3
+     *测试3用例
      */
     @Test
     public void testThree() {
         try{
+            //定义一个输入值
             Integer[] arrs = {0, 9, 2, 4};
             //将数字和字符组合转换
             List<String[]> resultList = CombineUtils.digitsConvertLetters(arrs);
