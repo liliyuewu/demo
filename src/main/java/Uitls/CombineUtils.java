@@ -14,7 +14,7 @@ public class CombineUtils {
      * @return
      */
     public static List<String[]> digitsConvertLetters(Integer[] arrStr){
-
+        //先判断输入的数值是否大于10
         Map<Integer, List<String>> digitsMap = getDigitsMap();
 
         List<String[]> dataList = new ArrayList<String[]>();
